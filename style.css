@@ -111,4 +111,12 @@ button:focus
     {
         width: 200px;
     }
+
+    
+    .rate 
+    {
+        font-size: 14px;
+    }
+
+    
 }
