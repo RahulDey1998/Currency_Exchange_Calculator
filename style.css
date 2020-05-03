@@ -99,6 +99,7 @@ button:focus
 
 @media(max-width : 600px)
 {
+    h1 { font-size: 1.5rem;}
     .currency input 
     {
         width: 200px;

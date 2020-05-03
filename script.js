@@ -19,9 +19,19 @@ function calculate()
    .then(data => 
     {
         const rate = data.rates[curr2];
-        const amnt2= amount1 * rate;
+        const amnt2= (amount1 * rate).toFixed(3);
         rateElement.innerText = `1 ${curr1} = ${rate} ${curr2}`;
         amountElement_2.value = amnt2;
+        // const timer = setInterval(() =>
+        // {
+        //     amountElement_2.value = i.toFixed(2);
+        //     i = i+1;
+        //     if(Math.round(i) === Math.round(amnt2))
+        //     {
+        //         clearInterval(timer);
+        //         amountElement_2.value = amnt2;
+        //     }
+        // } , 2);
     });  
 }
 
