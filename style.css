@@ -5,6 +5,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body 
@@ -20,6 +22,10 @@ body
     padding: 20px;
 }
 
+body > * 
+{
+    margin : 10px 0;
+}
 h1 
 {
     color: var(--primary-color);
@@ -93,7 +99,8 @@ button:focus
 .rate 
 {
     color : var(--primary-color);
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: 300;
     padding: 0px 10px;
 }
 
